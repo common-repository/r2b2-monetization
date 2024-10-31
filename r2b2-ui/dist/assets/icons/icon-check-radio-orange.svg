@@ -1,0 +1,7 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Checked=True, Indeterminate=False, Size=sm, Type=Radio, State=Default">
+<rect x="0.5" y="0.5" width="15" height="15" rx="7.5" fill="#FFF7ED"/>
+<circle id="Check" cx="8" cy="8" r="3" fill="#E57300"/>
+<rect x="0.5" y="0.5" width="15" height="15" rx="7.5" stroke="#E57300"/>
+</g>
+</svg>

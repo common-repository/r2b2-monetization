@@ -1,0 +1,23 @@
+.r2b2-ad::before {
+    content: 'Ad';
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    padding: 0.3em;
+    border-radius: 3px;
+    color: #FF9933;
+    background: black;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}
+
+.r2b2-ad {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    margin: auto auto 20px;
+    padding: 0;
+    text-align: center;
+}

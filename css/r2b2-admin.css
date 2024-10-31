@@ -1,0 +1,104 @@
+:root {
+    --r2b2-orange: #FF9933;
+    --r2b2-black: #000000;
+    --r2b2-pink: #FF0066;
+    --r2b2-blue: #3399FF;
+}
+
+.r2b2-options{
+    margin-top: 1em;
+}
+
+.r2b2-perex {
+    max-width: initial;
+}
+
+.r2b2-popup, .r2b2-popup-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    min-height: 100vh;
+    z-index: 999;
+}
+
+.r2b2-popup {
+    display: block;
+}
+
+.r2b2-popup-background {
+    background: #000000aa;
+    cursor: pointer;
+}
+
+.r2b2-popup-foreground {
+    position: fixed;
+    top: 9em;
+    z-index: 99999;
+    padding: 1rem 2rem;
+    background: white;
+}
+
+.r2b2-popup-closer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: unset;
+    background: unset;
+    color: black;
+}
+
+.r2b2-options .form-table {
+    display: none !important;
+}
+
+#r2b2-placement-table {
+    border-spacing: 0;
+    color: black;
+}
+
+#r2b2-placement-table th, #r2b2-placement-table td {
+    padding: 0.5em 0;
+    font-size: medium;
+}
+
+#r2b2-placement-table thead tr {
+    background: #F1F1F1;
+}
+
+#r2b2-placement-table thead th {
+    background: #F1F1F1;
+    border-right: 1px solid lightgrey;
+}
+
+#r2b2-placement-table thead th:last-child {
+    border-right: none;
+}
+
+#r2b2-placement-table tbody tr {
+    background: #F6F6F6;
+    min-height: 1.5em;
+}
+
+#r2b2-placement-table tbody tr:nth-child(2n) {
+    background: white;
+}
+
+@media only screen and (min-width: 780px) {
+    .r2b2-perex {
+        max-width: 60em;
+    }
+    #r2b2-placement-table th, #r2b2-placement-table td {
+        padding: 0.5em 2em;
+        font-size: larger;
+    }
+    .r2b2-popup-foreground {
+        top: 14em;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 2rem 3rem;
+    }
+}
